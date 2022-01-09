@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.EndController">
+   <children>
+      <ImageView fitHeight="248.0" fitWidth="379.0" layoutX="110.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="15.0">
+         <image>
+            <Image url="@resources/chestionar.jpg" />
+         </image></ImageView>
+      <Label fx:id="result" alignment="CENTER" layoutX="168.0" layoutY="278.0" prefHeight="39.0" prefWidth="263.0" text="Label" textAlignment="CENTER" AnchorPane.leftAnchor="168.0" AnchorPane.rightAnchor="169.0">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Button fx:id="restartButton" layoutX="244.0" layoutY="395.0" mnemonicParsing="false" onAction="#restartButtonAction" prefHeight="30.0" prefWidth="110.0" text="Reia" textAlignment="CENTER" />
+      <Button fx:id="exitButton" layoutX="244.0" layoutY="433.0" mnemonicParsing="false" onAction="#exitButtonAction" prefHeight="30.0" prefWidth="110.0" text="Iesire" textAlignment="CENTER" />
+      <Text fx:id="correct" fill="#019f11" layoutX="240.0" layoutY="343.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" wrappingWidth="120.13673400878906" />
+      <Text fx:id="wrong" fill="#ac0404" layoutX="240.0" layoutY="360.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" wrappingWidth="120.13673400878906" />
+   </children>
+</AnchorPane>
